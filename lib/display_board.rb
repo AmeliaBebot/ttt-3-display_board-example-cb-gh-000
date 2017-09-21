@@ -3,11 +3,11 @@ def display_board
   row = [" ", "|", " ", "|", " "]
   separator = "-----------"
   puts "Welcome to Tic Tac Toe"
-  row
-  separator
-  row
-  separator
-  row
+  puts row
+  puts separator
+  puts row
+  puts separator
+  puts row
 end
 
 display_board
